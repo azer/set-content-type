@@ -1,6 +1,6 @@
 {
   "name": "set-content-type",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Set Content-Type header of given request and response objects",
   "main": "index.js",
   "scripts": {
