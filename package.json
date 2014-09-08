@@ -1,0 +1,22 @@
+{
+  "name": "set-content-type",
+  "version": "0.0.0",
+  "description": "Set Content-Type header of given request and response objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": [
+    "request",
+    "content-type"
+  ],
+  "repository": {
+    "url": "git@github.com:azer/set-content-type.git",
+    "type": "git"
+  },
+  "author": "azer",
+  "license": "BSD",
+  "dependencies": {
+    "mime": "^1.2.11"
+  }
+}
