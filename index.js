@@ -3,7 +3,7 @@ var ext = require("path").extname;
 
 module.exports = setContentType;
 
-function setContentType (req, res) {
+function setContentType (req, res, type) {
   if (!ext(req.url)) return;
-  res.setHeader('Content-Type', mime.lookup(req.url));
+  res.setHeader('Content-Type', type || mime.lookup(req.url));
 }
