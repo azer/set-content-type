@@ -18,5 +18,8 @@
   "license": "BSD",
   "dependencies": {
     "mime": "^1.2.11"
+  },
+  "devDependencies": {
+    "prova": "^2.0.3"
   }
 }
